@@ -7,5 +7,5 @@ def hello():
     return "Hello World!"
 
 if __name__ == "__main__":
-    port = os.envirn.get("PORT")
+    port = os.environ.get("PORT")
     app.run("0.0.0.0", port)
